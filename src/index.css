@@ -1,0 +1,17 @@
+#chap-page .chat-me .am-list-extra{
+	flex-basis:auto;
+	color:red;
+}
+
+#chap-page .chat-me .am-list-content{
+	padding-right:15px;
+	text-align: right;
+	color:red;
+}
+
+/*.stick-footer{*/
+	/*z-index:100;*/
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	/*width: 100%;*/
+/*}*/

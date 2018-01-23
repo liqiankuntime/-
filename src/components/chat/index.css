@@ -1,0 +1,27 @@
+
+.chat-me .am-list-content{
+	padding-right: 15px!important;
+	text-align: right!important;
+}
+.chat-me .am-list-extra{
+	flex-basis:auto!important;
+}
+/*flex-basis拉长的比例*/
+
+
+.stick-footer{
+	display:flex;
+	flex-direction:column;
+	z-index:100;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color:red;
+}
+
+.am-grid-icon{
+	display:none
+}
+.am-grid-text{
+	margin-top: 0 !important;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body onload="init();">
+
+<p>产品一</p>
+<p>产品二</p>
+<p>产品三</p>
+<p>产品四</p>
+<p>产品五</p>
+
+<script type="text/javascript">
+
+	function init() {
+		var pAry = document.getElementsByTagName("p");
+		for( var i=0; i<pAry.length; i++ ) {
+				(function(tag){
+					pAry[tag].onclick = function() {
+						console.log(tag+1,i);
+					}
+			})(i)
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.logoImageContainer{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	margin-top:0.2rem;
+	margin-bottom: 0.2rem;
+	background:white;
+}
+
+.logoImg{
+	width:20rem;
+	height:20rem;
+}
